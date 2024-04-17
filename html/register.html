@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/register.css">
+    <link rel="stylesheet" href="home.html">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <header class="text-center mt-3 mb-4">
+            <div class="head">
+                <a href="home.html">HOME</a>
+                DriveX <span class="registerform">Register</span>
+            </div>
+        </header>
+        <main>
+            <div class="d-flex justify-content-center align-items-center flex-grow-1">
+                <div class="col-md-6">
+                    <div class="register-box">
+                        <h2 class="text-center mb-4">Register</h2>
+                        <form id="registerForm">
+                            <div class="form-group">
+                                <input type="text" name="user" id="user" class="form-control" required>
+                                <label for="user">Username</label>
+                                <p class="text-danger" id="tbUser"></p>
+                            </div>
+                            <div class="form-group">
+                                <input type="password" name="pass" id="pass" class="form-control" required>
+                                <label for="pass">Password</label>
+                                <p class="text-danger" id="tbPass"></p>
+                            </div>
+                            <div class="form-group">
+                                <input type="email" name="email" id="email" class="form-control" required>
+                                <label for="email">Email</label>
+                                <p class="text-danger" id="tbEmail"></p>
+                            </div>
+                            <p class="txt text-center">Already have an account? <a class="link" href="login.html">Login</a></p>
+                            <button type="submit" class="btn btn-primary btn-block" style="background-color: red; border-color: red" >Register</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+  
+    <script src="../js/jquery-3.5.1.slim.min.js"></script>
+    <script src="../js/popper.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/register.js"></script>
+</body>
+</html>
+

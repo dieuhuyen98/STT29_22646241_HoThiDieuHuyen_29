@@ -1,0 +1,68 @@
+[
+    {
+        "Name": "Porsche 911",
+        "Price": "$150,0000",
+        "Color": "3.0L Twin-Turbocharged Flat-6",
+        "Engine": "379 hp",
+        "Horsepower": "379 hp",
+        "Acceleration (0-60 mph)": "4.0 seconds",
+        "TopSpeed": " 182 mph",
+        "Description": "This is a luxury car, with elegant and modern design. With advanced technology and powerful performance, this car will provide you with an excellent driving experience. Additionally, the spacious and comfortable interior is also a highlight of this car, ensuring comfort for both passengers and drivers. <br>Explore more about this car and make a purchase today!",
+        "imageUrl": "../img/car1.jpg"
+    },
+    {
+        "Name": "Mercedes",
+        "Price": "$150,0000",
+        "Color": "3.0L Twin-Turbocharged Flat-6",
+        "Engine": "379 hp",
+        "Horsepower": "379 hp",
+        "Acceleration (0-60 mph)": "4.0 seconds",
+        "TopSpeed": " 182 mph",
+        "Description": "This is a luxury car, with elegant and modern design. With advanced technology and powerful performance, this car will provide you with an excellent driving experience. Additionally, the spacious and comfortable interior is also a highlight of this car, ensuring comfort for both passengers and drivers. <br>Explore more about this car and make a purchase today!",
+        "imageUrl": "../img/car2.jpg"
+    },
+    {
+        "Name": "Rolls-Royce",
+        "Price": "$150,0000",
+        "Color": "3.0L Twin-Turbocharged Flat-6",
+        "Engine": "379 hp",
+        "Horsepower": "379 hp",
+        "Acceleration (0-60 mph)": "4.0 seconds",
+        "TopSpeed": " 182 mph",
+        "Description": "This is a luxury car, with elegant and modern design. With advanced technology and powerful performance, this car will provide you with an excellent driving experience. Additionally, the spacious and comfortable interior is also a highlight of this car, ensuring comfort for both passengers and drivers. <br>Explore more about this car and make a purchase today!",
+        "imageUrl": "../img/car3.jpg"
+    },
+    {
+        "Name": "Ferrari 488 GTB",
+        "Price": "$150,0000",
+        "Color": "3.0L Twin-Turbocharged Flat-6",
+        "Engine": "379 hp",
+        "Horsepower": "379 hp",
+        "Acceleration (0-60 mph)": "4.0 seconds",
+        "TopSpeed": " 182 mph",
+        "Description": "This is a luxury car, with elegant and modern design. With advanced technology and powerful performance, this car will provide you with an excellent driving experience. Additionally, the spacious and comfortable interior is also a highlight of this car, ensuring comfort for both passengers and drivers. <br>Explore more about this car and make a purchase today!",
+        "imageUrl": "../img/car4.jpg"
+    },
+    {
+        "Name": "Lamborghini",
+        "Price": "$150,0000",
+        "Color": "3.0L Twin-Turbocharged Flat-6",
+        "Engine": "379 hp",
+        "Horsepower": "379 hp",
+        "Acceleration (0-60 mph)": "4.0 seconds",
+        "TopSpeed": " 182 mph",
+        "Description": "This is a luxury car, with elegant and modern design. With advanced technology and powerful performance, this car will provide you with an excellent driving experience. Additionally, the spacious and comfortable interior is also a highlight of this car, ensuring comfort for both passengers and drivers. <br>Explore more about this car and make a purchase today!",
+        "imageUrl": "../img/car5.jpg"
+    },
+    {
+        "Name": "Aston Martin",
+        "Price": "$150,0000",
+        "Color": "3.0L Twin-Turbocharged Flat-6",
+        "Engine": "379 hp",
+        "Horsepower": "379 hp",
+        "Acceleration (0-60 mph)": "4.0 seconds",
+        "TopSpeed": " 182 mph",
+        "Description": "This is a luxury car, with elegant and modern design. With advanced technology and powerful performance, this car will provide you with an excellent driving experience. Additionally, the spacious and comfortable interior is also a highlight of this car, ensuring comfort for both passengers and drivers. <br>Explore more about this car and make a purchase today!",
+        "imageUrl": "../img/car6.jpg"
+    }
+]

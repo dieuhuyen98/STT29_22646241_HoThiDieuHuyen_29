@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/login.css">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <script src="../js/login.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/jquery-3.7.1.min.js"></script>
+    
+    <title>Login</title>
+</head>
+<body>
+    <div class="container">
+        <header class="text-center mt-3 mb-4">
+            <div class="head">
+                <a href="home.html">HOME</a>
+                DriveX <span class="loginform">Login</span>
+            </div>
+        </header>
+        <main class="d-flex justify-content-center align-items-center flex-grow-1">
+            <div class="login-box">
+                <h2 class="text-center">Login</h2>
+                <form id="loginForm">
+                    <div class="form-group">
+                        <input type="text" name="user" id="user" class="form-control" required>
+                        <label for="user">Username</label>
+                        <p class="text-danger" id="tbUser"></p>
+                    </div>
+                    <div class="form-group">
+                        <input type="password" name="pass" id="pass" class="form-control" required>
+                        <label for="pass">Password</label>
+                        <p class="text-danger" id="tbPass"></p>
+                    </div>
+                    <p class="txt text-center">Do not have an account? <a class="link" href="register.html">Register</a></p>
+                    <button type="submit" class="btn btn-primary btn-block" style="background-color: red; border-color: red" >Login</button>
+                </form>
+            </div>
+        </main>
+    </div>
+</body>
+</html>
+

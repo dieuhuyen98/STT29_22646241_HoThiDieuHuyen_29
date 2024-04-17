@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #f8f8f8;
+    background: url("../img/home2.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: #262626;
+    
+}
+.head {
+    font-size: 24px;
+}
+
+.head a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.head a:hover {
+    text-decoration: underline;
+}
+
+.loginform {
+    font-size: 18px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.login-box {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.user-box {
+    position: relative;
+    margin-bottom: 25px;
+}
+
+.user-box input {
+    width: 100%;
+    padding: 10px 0;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #333;
+    background-color: transparent;
+    color: #333;
+    font-size: 16px;
+}
+
+.user-box label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+    transition: 0.5s;
+    color: #999;
+}
+
+.user-box input:focus ~ label,
+.user-box input:valid ~ label {
+    top: -20px;
+    font-size: 14px;
+    color: #ff6f61;
+}
+
+.txt {
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.link {
+    color: #ff6f61;
+    text-decoration: none;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+

@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>DriveX</title>
+</head>
+<style>
+   
+    .cars-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.box {
+    flex: 1 1 17rem;
+    position: relative;
+    height: 200px;
+    border-radius: 0.5rem;
+    overflow: hidden;
+}
+
+.box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.box:hover img {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+.box p {
+    position: absolute;
+    bottom: 1rem;
+    left: 1rem;
+    font-weight: 400;
+    font-size: 1rem;
+    background: var(--bg-color);
+    padding: 8px;
+    border-radius: 0.5rem;
+}
+
+.box:hover p {
+    background: var(--main-color);
+    color: var(--bg-color);
+}
+.details-btn {
+    position: absolute;
+    bottom: 1rem;
+    right: 1rem;
+    font-size: 0.8rem;
+    padding: 0.5rem 1rem;
+    background-color: red; 
+    color: var(--bg-color); 
+    border-radius: 0.3rem;
+    text-decoration: none;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.details-btn:hover {
+    border-bottom: 3rem red;
+}
+
+
+</style>
+<body>
+ <!--Navbar-->
+ <header>
+    <!--Nav Container-->
+    <div class="nav container">
+        <!--Menu icon-->
+        <i class='bx bx-menu' id="menu-icon"></i>
+        <!--Logo-->
+        <a href="#" class="logo">Drive<span>X</span></a>
+        <ul class="navbar">
+            <li><a class="link" href="home.html" >HOME</a></li>
+            <li><a class="link" href="cars.html" class="active">CARS</a></li>
+            <li><a class="link" href="about.html">ABOUT</a></li>
+            <li><a class="link" href="parts.html">PARTS</a></li>
+            <li><a class="link" href="blog.html">OUR BLOG</a></li>
+        </ul>
+        <!--search icon-->
+        <i class='bx bx-search' id="search-icon"></i>
+        <!--search box-->
+        <div class="search-box container">
+            <input type="search" name="" id="" placeholder="Search here">
+        </div>
+        <a href="login.html" style="color:black; border-bottom: 3px solid red;">Login</a>
+    </div>
+</header>
+    <!--Cars Section-->
+    <section class="cars" id="cars">
+        <!--Cars Container-->
+        <div class="cars-container container">
+            <!--box 1-->
+            <div value="1" class="box">
+                <img src="../img/car1.jpg" alt="">
+                <p>Porsche 911</p>
+                <a href="viewdetail.html?value=0" class=" details-btn">View Details</a>
+            </div>
+            <!--box 2-->
+            <div value="2" class="box">
+                <img src="../img/car4.jpg" alt="">
+                <p>Mercedes</p>
+                <a href="viewdetail.html?value=1" class="details-btn">View Details</a>
+            </div>
+            <!--box 3-->
+            <div value="3" class="box">
+                <img src="../img/car2.jpg" alt="">
+                <p>Rolls-Royce</p>
+                <a href="viewdetail.html?value=2" class="details-btn">View Details</a>
+            </div>
+            <!--box 4-->
+            <div value="4" class="box">
+                <img src="../img/car3.jpg" alt="">
+                <p>Ferrari 488 GTB</p>
+                <a href="viewdetail.html?value=3" class="details-btn">View Details</a>
+            </div>
+            <!--box 5-->
+            <div value="5" class="box">
+                <img src="../img/car5.jpg" alt="">
+                <p>Lamborghini</p>
+                <a href="viewdetail.html?value=4" class="details-btn">View Details</a>
+            </div>
+            <!--box 6-->
+            <div value="6" class="box">
+                <img src="../img/car7.jpg" alt="">
+                <p>Aston Martin</p>
+                <a href="viewdetail.html?value=5" class="details-btn">View Details</a>
+            </div>
+        </div>
+
+    </section>
+
+    <script type="module" src="../js/cars.js"></script>
+
+<!--Footer -->
+<section class="footer">
+    <div class="footer-container container">
+        <div class="footer-box">
+            <a href="#" class="logo">Drive<span>X</span></a>
+            <div class="social">
+                <a href="#">
+                    <i class='bx bxl-facebook-circle' ></i>
+                </a>
+                <a href="#">
+                    <i class='bx bxl-twitter' ></i>
+                </a>
+                <a href="#">
+                    <i class='bx bxl-instagram' ></i>
+                </a>
+                <a href="#">
+                    <i class='bx bx-link' ></i>
+                </a>
+            </div>
+        </div>
+        <div class="footer-box">
+            <h3>Page</h3>
+            <a href="#">Home</a>
+            <a href="#">Cars</a>
+            <a href="#">Parts</a>
+            <a href="#">Sales</a>
+        </div>
+        <div class="footer-box">
+            <h3>Legal</h3>
+            <a href="#">Privacy</a>
+            <a href="#">Refund Policy</a>
+            <a href="#">Cookie Policy</a>
+        </div>
+        <div class="footer-box">
+            <h3>Contact</h3>
+            <p>United State</p>
+            <p>Japan</p>
+            <p>VietNam</p>
+            <p>Germany</p>
+        </div>
+    </div>
+</section>
+<!--Copyright-->
+<div class="copyright">
+    <p>&#169;CarpoolVenom All Right Reserved</p>
+</div>
+<script src="../js/search.js"></script>
+</body>
+</html>

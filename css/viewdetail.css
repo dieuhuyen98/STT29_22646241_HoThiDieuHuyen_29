@@ -1,0 +1,100 @@
+/* General body styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Styling for the car details container */
+#car-details {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 800px;
+    /* Increased max width */
+    display: flex;
+    flex-wrap: wrap;
+    /* Ensures responsiveness */
+    margin: auto;
+}
+
+/* Image styling */
+#car-details img {
+    width: 100%;
+    max-width: 350px;
+    /* Limit image width */
+    height: auto;
+    border-radius: 4px;
+    flex: 1 1 350px;
+    /* Flexbox sizing */
+}
+
+/* Detail section styling */
+.detail-section {
+    flex: 2;
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* Header style */
+#car-details h1 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+/* Paragraph styling */
+#car-details p {
+    color: #666;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* Bold labels for better readability */
+#car-details strong {
+    color: #333;
+    font-weight: bold;
+}
+
+/* Button styling */
+.buy-button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 20px;
+    text-decoration: none;
+    /* If using an <a> tag as a button */
+}
+
+.image-cart {
+    flex: 1 1 33%;
+    /* Mỗi item chiếm khoảng 1/3 của dòng nếu có đủ không gian */
+
+}
+
+#car-details {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    top: 40px;
+    /* Cho phép các items bọc sang dòng mới nếu không đủ chỗ */
+}
+
+.text-content {
+    flex: 1 1 33%;
+
+}
