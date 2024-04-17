@@ -1,5 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap");
-
 * {
   margin: 0;
   padding: 0;
@@ -250,7 +248,7 @@ color: #1abc9c;
   width: 35px;
   height: 35px;
   border-radius: 5px;
-  /* background: linear-gradient(45deg, #1abc9c, #149279); */
+  background: linear-gradient(45deg, #b04157, #b04157);
   color: #fff;
   text-align: center;
   line-height: 35px;

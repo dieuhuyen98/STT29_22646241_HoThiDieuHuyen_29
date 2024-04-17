@@ -1,5 +1,5 @@
 
-import list from "./list.json" assert { type: 'json' };
+import list from "./list.json" with { type: 'json' };
 
 
 
